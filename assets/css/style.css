@@ -3,11 +3,11 @@
 @import url(https://wrixbyui.netlify.com/lib/package/wrixby.css);
 
 :root {
-  --bg-primary: #023E8A;
-  --bg-primary-light: #00B4D8;
-  --bg-secondary: #ADE8F4;
-  --bg-secondary-light: #CAF0F8;
-  --text-primary: #023E8A;
+  --bg-primary: #023e8a;
+  --bg-primary-light: #00b4d8;
+  --bg-secondary: #ade8f4;
+  --bg-secondary-light: #caf0f8;
+  --text-primary: #023e8a;
   --text-secondary: #eaf4f4;
 }
 
@@ -89,4 +89,9 @@ body {
 .sidebar-item-link {
   display: block;
   margin-left: 1rem;
+}
+
+.rules {
+  line-height: 2;
+  font-size: 1.25rem;
 }
