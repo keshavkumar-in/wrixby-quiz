@@ -95,3 +95,49 @@ body {
   line-height: 2;
   font-size: 1.25rem;
 }
+
+#quiz .card {
+  width: 50rem;
+  max-width: 50rem;
+  padding: 2rem;
+}
+
+#quiz .card-header,
+#result .card-header {
+  border-bottom: 2px solid var(--gray-3);
+}
+
+#quiz .card-header span,
+#result .card-header span {
+  text-align: right;
+}
+
+.options {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  padding: 1.5rem;
+}
+
+.option-item {
+  padding: 1rem;
+  border: 2px solid var(--bg-primary);
+  border-radius: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .option-item {
+  background: var(--bg-primary);
+  color: var(--white);
+}
+
+#result .card {
+  width: 100%;
+  max-width: 100%;
+  padding: 2rem;
+}
